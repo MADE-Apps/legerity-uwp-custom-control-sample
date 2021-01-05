@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Appium.WebDriver" Version="4.2.1" />
+    <PackageReference Include="Legerity" Version="0.4.21002.7-pre" />
+    <PackageReference Include="Legerity.MADE" Version="0.4.21002.7-pre" />
+    <PackageReference Include="Legerity.Telerik.Uwp" Version="0.4.21002.7-pre" />
+    <PackageReference Include="Legerity.WCT" Version="0.4.21002.7-pre" />
+    <PackageReference Include="Legerity.WinUI" Version="0.4.21002.7-pre" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+    <PackageReference Include="Shouldly" Version="4.0.3" />
+  </ItemGroup>
+
+</Project>
